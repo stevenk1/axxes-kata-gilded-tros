@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003A_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F1d83d3dc29c14b7e95c03dbe447e7cb021420_003Fa7_003F5b1161b9_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AFileApprover_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F8b93de8cfe46ba1dc32e6b9ec44f0587ccc87555ccf7f1abb20ab8ee5688e_003FFileApprover_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=950476bc_002Dd042_002D4db7_002Db23c_002D68f276ec2824/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GildedTrosTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.GildedTrosTest&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.ApprovalTest&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Items.GoodWineTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Items.LegendaryTestsTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.LegendaryTestsTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.DefaultStrategyTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.BackstagePassesStrategyTests.UpdateQuality_GBackstagePassesStrategy_ShouldDecreaseSellIn&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.BackstagePassesStrategyTests.UpdateQuality_BackstagePassesStrategy_ShoulIncreaseQualityBy3WhenSellIn5OrLess&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.BackstagePassesStrategyTests.UpdateQuality_BackstagePassesStrategy_ShouldNeverBeHigherThan50&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.BackstagePassesStrategyTests.UpdateQuality_BackstagePassesStrategy_ShoulIncreaseQualityBy2WhenSellIn10OrLess&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.Strategies.BackstagePassesStrategyTests&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::37C9D9B5-867E-4905-926C-19ED64D89B89::net9.0::GildedTros.App.ItemQualityUpdateStrategyFactoryTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;37C9D9B5-867E-4905-926C-19ED64D89B89/d:Strategies/f:GoodWineStrategyTests.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
