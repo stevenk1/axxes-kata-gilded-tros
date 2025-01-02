@@ -12,7 +12,7 @@ public class ItemQualityUpdateStrategyFactoryTests
         Assert.NotNull(strategy);
         Assert.IsType<GoodWineStrategy>(strategy);
     }
-    
+
     [Fact]
     public void Create_ItemQualityUpdateStrategyFactory_ShouldReturnCorrectStrategyWhenFoo()
     {
@@ -20,7 +20,7 @@ public class ItemQualityUpdateStrategyFactoryTests
         Assert.NotNull(strategy);
         Assert.IsType<DefaultStrategy>(strategy);
     }
-    
+
     [Fact]
     public void Create_ItemQualityUpdateStrategyFactory_ShouldReturnCorrectLegendaryStrategy()
     {
@@ -28,7 +28,7 @@ public class ItemQualityUpdateStrategyFactoryTests
         Assert.NotNull(strategy);
         Assert.IsType<LegendaryStrategy>(strategy);
     }
-    
+
     [Theory]
     [InlineData("Backstage passes for Re:factor")]
     [InlineData("Backstage passes for HAXX")]
@@ -38,7 +38,7 @@ public class ItemQualityUpdateStrategyFactoryTests
         Assert.NotNull(strategy);
         Assert.IsType<BackstagePassesStrategy>(strategy);
     }
-    
+
     [Theory]
     [InlineData("Ring of Cleansening Code")]
     [InlineData("Elixir of the SOLID")]
@@ -47,5 +47,16 @@ public class ItemQualityUpdateStrategyFactoryTests
         var strategy = new ItemQualityUpdateStrategyFactory().Create(new Item { Name = name });
         Assert.NotNull(strategy);
         Assert.IsType<DefaultStrategy>(strategy);
+    }
+
+    [Theory]
+    [InlineData("Duplicate Code")]
+    [InlineData("Long Methods")]
+    [InlineData("Ugly Variable Names")]
+    public void Create_ItemQualityUpdateStrategyFactory_ShouldReturnCorrectSmellyItemsStrategy(string name)
+    {
+        var strategy = new ItemQualityUpdateStrategyFactory().Create(new Item { Name = name });
+        Assert.NotNull(strategy);
+        Assert.IsType<SmellyItemsStrategy>(strategy);
     }
 }
