@@ -6,12 +6,8 @@ public class SmellyItemsStrategy : IItemQualityUpdateStrategy
     {
         item.SellIn--;
 
-        var quality = item.Quality;
-        quality -= 2;
+        item.DecrementQualityBy(2);
 
-        if (item.IsExpired()) quality -= 2;
-
-
-        item.Quality = quality > 0 ? quality : 0;
+        if (item.IsExpired()) item.DecrementQualityBy(2);
     }
 }

@@ -4,26 +4,22 @@ public class BackstagePassesStrategy : IItemQualityUpdateStrategy
 {
     public void UpdateQuality(Item item)
     {
-        var quality = item.Quality;
-
         item.SellIn--;
 
         switch (item.SellIn)
         {
             case < 0:
-                quality = 0;
+                item.Quality = 0;
                 break;
             case < 5:
-                quality += 3;
+                item.IncrementQualityBy(3);
                 break;
             case < 10:
-                quality += 2;
+                item.IncrementQualityBy(2);
                 break;
             default:
-                quality += 1;
+                item.IncrementQuality();
                 break;
         }
-
-        item.Quality = quality > 50 ? 50 : quality;
     }
 }
