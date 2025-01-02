@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using GildedTros.App.Factories;
 
 namespace GildedTros.App;
 

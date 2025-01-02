@@ -1,7 +1,7 @@
 using GildedTros.App.Strategies;
 using Xunit;
 
-namespace GildedTros.App;
+namespace GildedTros.App.Factories;
 
 public class ItemQualityUpdateStrategyFactoryTests
 {

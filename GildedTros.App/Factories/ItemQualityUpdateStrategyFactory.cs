@@ -1,6 +1,6 @@
 using GildedTros.App.Strategies;
 
-namespace GildedTros.App;
+namespace GildedTros.App.Factories;
 
 public class ItemQualityUpdateStrategyFactory
 {
